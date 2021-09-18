@@ -1,6 +1,6 @@
 import { Router } from 'express'
 
-import VersionController from './controllers/VersionController'
+import VersionController from '@controller/VersionController'
 
 const routes = Router()
 
