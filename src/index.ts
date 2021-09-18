@@ -1,5 +1,8 @@
 import express from 'express'
+import dotenv from 'dotenv'
 import routes from './router'
+
+dotenv.config()
 
 const PORT = process.env.APP_PORT || 3333
 
