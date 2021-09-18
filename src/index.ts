@@ -4,6 +4,8 @@ import routes from './router'
 
 dotenv.config()
 
+// The port the application will run on
+
 const PORT = process.env.APP_PORT || 3333
 
 // Instantiate the express
